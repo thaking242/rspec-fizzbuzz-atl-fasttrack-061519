@@ -2,9 +2,9 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-   elsif num % 3 && 5 == 0 
+   if num % 3 && 5 == 0 
    "FizzBuzz"
-  if num % 3 == 0
+  elsif num % 3 == 0
    "Fizz"  
   elsif num % 5 == 0
    "Buzz"
